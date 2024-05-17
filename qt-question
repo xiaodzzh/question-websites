@@ -1,0 +1,3 @@
+qt 编码关于颜文字
+vs中编译生效不再乱码：QString(u8"⧉") : QString(u8"☐");
+转载：https://shine5402.top/msvc-c4566/
