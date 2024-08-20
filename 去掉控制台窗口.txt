@@ -1,0 +1,2 @@
+链接器-系统
+链接器-高级-入口点-mainCRTStartup

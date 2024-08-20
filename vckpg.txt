@@ -1,0 +1,2 @@
+安装三方库
+.\vcpkg install 三方库

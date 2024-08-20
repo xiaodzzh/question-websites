@@ -1,0 +1,15 @@
+${CMAKE_CURRENT_SOURCE_DIR} ： 当前项目cmakelists.txt目录
+${CMAKE_CURRENT_BINARY_DIR} ： 当前cmakelist项目指向的构建build目录     ${PROJECT_BINARY_DIR} ：整个cmake的构建项目
+${CMAKE_SOURCE_DIR} ： 项目根目录
+
+ADD_LIBRARY(${生成库名称} ${SRC} ${FORMS}) ： 生成库
+
+INCLUDE_DIRECTORIES : 将目录包含到附加包含目录
+
+target_include_directories ：为指定项目库添加目录到附加包含目录
+
+TARGET_LINK_LIBRARIES ： 添加到链接库
+
+INSTALL(TARGETS ${OUT_NAME}  DESTINATION lib) ： 将生成的.lib安装到build目录的lib目录下
+
+add_library ：为指定项目库添加库目录（比如cpp）

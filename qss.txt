@@ -1,0 +1,1 @@
+qt中修改QFrame属性时：将QFrameShadow修改为Plain才能生效
